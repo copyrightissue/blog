@@ -21,6 +21,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=200)),
                 ('body', models.TextField()),
                 ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+
             ],
         ),
     ]
